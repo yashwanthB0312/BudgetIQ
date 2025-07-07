@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body{
+  font-family:monospace;
+}
+
+@layer components{
+  .btn{
+    @apply text-secondary border-1 rounded-lg w-full hover:text-white hover:bg-secondary p-2 mb-3
+  }
+}
+
+@theme {
+  --color-primary:#000000d9;
+  --color-secondary:#2970ff;
+}
