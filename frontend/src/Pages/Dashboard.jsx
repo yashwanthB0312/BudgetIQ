@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import LineChart from '../components/LineChart';
 import PieChart from '../components/PieChart';
 import HistoryList from '../components/HistoryList';
-import API from '../api';
+import API from '../Api';
 import { toast } from 'react-toastify';
 import { FiSearch, FiMenu, FiX } from 'react-icons/fi';
 
