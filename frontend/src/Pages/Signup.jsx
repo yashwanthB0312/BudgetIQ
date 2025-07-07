@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import API from '../api';
+import API from '../Api';
 import { toast } from 'react-toastify';
 
 const Signup = () => {
