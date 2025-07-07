@@ -26,7 +26,7 @@ const Signup = () => {
 
       localStorage.setItem('token', res.data.token);
       toast.success('Signup successful');
-      navigate('/dashboard');
+      navigate('/');
     } catch (err) {
       console.error('Signup error:', err.response?.data || err.message);
       toast.error(err.response?.data?.msg || 'Signup failed');
